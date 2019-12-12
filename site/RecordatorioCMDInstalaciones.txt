@@ -1,0 +1,66 @@
+comandos para la instalacion curso Coursera HTML5,CSS yJavaScript desde CMD
+
+Instalacion Ejemplo (ves a tiempo real los cambios en el servidor--> npm install -g browser-sync
+ver la version de un programa instalado--> programainstalado --version
+Lanzar el servidor desde la consola--> browser-sync start --server --directory --files "*"
+
+
+Ejemplo: se va a lanzar todo lo que este en el directorio html_coursera
+a un servidor:
+
+
+INSTALAMOS ALGO QUE TODAVÍA NO ENTIENDO
+C:\Users\lopez>npm install -g browser-sync
+C:\Users\lopez\AppData\Roaming\npm\browser-sync -> C:\Users\lopez\AppData\Roaming\npm\node_modules\browser-sync\dist\bin.js
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\browser-sync\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
++ browser-sync@2.26.3
+added 346 packages from 267 contributors in 26.364s
+
+COMPROBAMOS QUE SE HA INSTALADO CORRECTAMENTE
+C:\Users\lopez>browser-sync --version
+2.26.3
+
+LANZAMOS LA CONEXIÓN AL SERVIDOR
+C:\Users\lopez\html_coursera>browser-sync start --server --directory --files "*"
+[Browsersync] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.43.80:3000
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ --------------------------------------
+[Browsersync] Serving files from: ./
+[Browsersync] Watching files...
+
+MIS EJERCICIOS:
+C:\Users\lopez\html_coursera\coursera-test\site
+
+COSAS INSTALADAS:
+Git-->repositiorio
+SUblime Text --> editor IDE
+
+SITIOS DE REFERENCIA ÚTILES
+https://codepen.io/
+https://jsfiddle.net/
+https://validator.w3.org/#validate_by_input
+https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/FAQ.md#q-what-is-a-command-prompt
+
+GIT
+USUARIO exteli
+PASS evalopez333
+EMAIL lopeziglesias@gmail.com
+comandos útiles del bash 
+git config --global user.email "you@example.com"
+
+CURSO EN EL GIT
+ https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/FAQ.md
+
+
+
+
+app-routing.modules.ts
+import { PeliculasComponent } from './components/pelicula/pelicula.component';
+ { path: 'pelicula/:id', component: PeliculaComponent },
+ 
